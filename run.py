@@ -81,7 +81,7 @@ def main() -> None:
     high = sum(1 for i in result.get("review_checklist", [])
                if i.get("severity", "").lower() == "high")
     if high:
-        print(f"\n  ⚠  {high} HIGH severity item(s) — review output/review_checklist.md before executing DDL.")
+        print(f"\n  [HIGH] {high} HIGH severity item(s) -- review output/review_checklist.md before executing DDL.")
 
     print(f"\nDone. Open output/ to review artifacts.")
     print("Next step: open output/schema.sql in SSMS 18 and review before executing.\n")

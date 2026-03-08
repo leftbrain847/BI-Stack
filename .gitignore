@@ -1,0 +1,30 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Generated output (commit selectively — not raw runs)
+output/*.sql
+output/*.json
+output/*.tmdl
+output/*.md
+
+# Data — raw CSVs may contain PII in production
+# Keep synthetic samples in source control for now
+# data/raw/*.csv   # uncomment if data is sensitive
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

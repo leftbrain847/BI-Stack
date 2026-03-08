@@ -1,0 +1,501 @@
+encounter_id,patient_id,provider_id,encounter_date,encounter_type,discharge_date,chief_complaint,admit_status,los_days,total_charge
+3001,1164,2001,2023-01-24,Outpatient,,Fatigue,Not Admitted,,3789.67
+3002,1145,2007,2024-05-15,Outpatient,,Post-surgical follow-up,Not Admitted,,41367.91
+3003,1146,2031,2022-08-24,Outpatient,,Cough,Not Admitted,,2166.8
+3004,1140,2012,2022-03-18,Inpatient,2022-03-28,Joint pain,Admitted,10.7,778.44
+3005,1183,2005,2022-08-01,Inpatient,2022-08-15,Fever,Admitted,14.4,7373.08
+3006,1174,2049,2022-09-04,Inpatient,2022-09-13,Back pain,Admitted,9.3,35588.13
+3007,1089,2004,2023-12-07,Telehealth,,Headache,Not Admitted,,19711.19
+3008,1158,2039,2024-05-08,Outpatient,,Hypertension management,Not Admitted,,43603.75
+3009,1116,2032,2022-12-01,Outpatient,,Nausea and vomiting,Not Admitted,,16059.82
+3010,1170,2025,2023-01-20,Outpatient,,Abdominal pain,Not Admitted,,34764.62
+3011,1022,2018,2022-10-30,Telehealth,,Back pain,Not Admitted,,17146.5
+3012,1082,2001,2024-03-13,Inpatient,2024-03-19,Fever,Admitted,6.1,20054.76
+3013,1048,2028,2024-02-19,Outpatient,,Depression screening,Not Admitted,,25097.55
+3014,1206,2036,2023-06-09,Outpatient,,Abdominal pain,Not Admitted,,26891.84
+3015,1075,2027,2024-03-14,Outpatient,,Hypertension management,Not Admitted,,35079.17
+3016,1063,2037,2024-01-13,Emergency,,Post-surgical follow-up,Not Admitted,,7693.51
+3017,1069,2032,2023-01-25,Outpatient,,Back pain,Not Admitted,,2917.28
+3018,1020,2024,2023-03-22,Outpatient,,Cough,Not Admitted,,42494.19
+3019,1051,2020,2024-01-09,Inpatient,2024-01-17,Chest pain,Admitted,8.1,42700.89
+3020,1085,2029,2022-12-07,Telehealth,,Joint pain,Not Admitted,,19420.43
+3021,1035,2020,2024-04-23,Telehealth,,Joint pain,Not Admitted,,27174.27
+3022,1102,2021,2023-12-13,Outpatient,,Fever,Not Admitted,,33089.23
+3023,1063,2021,2023-10-11,Outpatient,,Hypertension management,Not Admitted,,12667.48
+3024,1145,2013,2024-03-15,Outpatient,,Urinary symptoms,Not Admitted,,44877.13
+3025,1187,2014,2022-07-04,Inpatient,2022-07-12,Depression screening,Admitted,8.9,35911.02
+3026,1105,2041,2024-05-01,Inpatient,2024-05-12,Fever,Admitted,11.5,10947.8
+3027,1097,2005,2023-11-06,Outpatient,,Depression screening,Not Admitted,,44582.23
+3028,1178,2024,2023-05-06,Inpatient,2023-05-13,Palpitations,Admitted,7.5,26752.36
+3029,1171,2023,2022-03-29,Outpatient,,Fatigue,Not Admitted,,29141.47
+3030,1166,2022,2022-02-15,Inpatient,2022-02-22,Annual wellness visit,Admitted,8.0,4834.56
+3031,1133,2036,2022-04-11,Outpatient,,Urinary symptoms,Not Admitted,,30968.32
+3032,1198,2044,2022-08-15,Outpatient,,Urinary symptoms,Not Admitted,,31092.9
+3033,1202,2019,2022-06-04,Outpatient,,Annual wellness visit,Not Admitted,,41430.6
+3034,1037,2023,2022-03-29,Outpatient,,Fever,Not Admitted,,15487.27
+3035,1122,2007,2024-03-14,Outpatient,,Depression screening,Not Admitted,,32510.58
+3036,1182,2008,2023-04-09,Outpatient,,Chest pain,Not Admitted,,38224.41
+3037,1190,2016,2023-10-26,Outpatient,,Post-surgical follow-up,Not Admitted,,7912.31
+3038,1119,2015,2022-06-13,Outpatient,,Hypertension management,Not Admitted,,28366.98
+3039,1008,2013,2022-07-10,Inpatient,2022-07-22,Depression screening,Admitted,12.6,26679.73
+3040,1072,2049,2023-02-03,Outpatient,,Abdominal pain,Not Admitted,,26012.35
+3041,1084,2013,2024-03-29,Telehealth,,Depression screening,Not Admitted,,5194.43
+3042,1164,2021,2023-11-18,Telehealth,,Skin rash,Not Admitted,,17534.62
+3043,1118,2044,2023-02-06,Inpatient,2023-02-16,Fever,Admitted,10.2,41346.81
+3044,1031,2016,2023-08-28,Outpatient,,Fever,Not Admitted,,5328.93
+3045,1108,2025,2023-01-18,Inpatient,2023-01-28,Annual wellness visit,Admitted,10.1,8419.98
+3046,1045,2036,2023-10-13,Outpatient,,Fatigue,Not Admitted,,22072.17
+3047,1159,2004,2022-05-24,Outpatient,,Diabetes management follow-up,Not Admitted,,42836.5
+3048,1144,2033,2023-05-12,Outpatient,,Medication refill,Not Admitted,,18455.36
+3049,1126,2011,2023-05-19,Outpatient,,Abdominal pain,Not Admitted,,25475.5
+3050,1071,2015,2024-03-25,Telehealth,,Palpitations,Not Admitted,,13043.51
+3051,1197,2032,2024-03-10,Outpatient,,Palpitations,Not Admitted,,23022.96
+3052,1094,2035,2023-08-10,Outpatient,,Shortness of breath,Not Admitted,,34218.19
+3053,1027,2048,2023-03-28,Outpatient,,Nausea and vomiting,Not Admitted,,13449.57
+3054,1023,2029,2022-02-03,Outpatient,,Headache,Not Admitted,,34920.25
+3055,1177,2023,2022-08-31,Outpatient,,Skin rash,Not Admitted,,28502.22
+3056,1053,2023,2022-06-19,Inpatient,2022-07-02,Palpitations,Admitted,13.1,12702.74
+3057,1075,2019,2023-07-06,Outpatient,,Urinary symptoms,Not Admitted,,12085.39
+3058,1025,2009,2024-05-28,Outpatient,,Annual wellness visit,Not Admitted,,41350.68
+3059,1034,2016,2022-10-11,Telehealth,,Back pain,Not Admitted,,32034.41
+3060,1101,2032,2024-04-28,Outpatient,,Back pain,Not Admitted,,26015.84
+3061,1020,2050,2022-10-03,Inpatient,2022-10-14,Abdominal pain,Admitted,11.8,18173.07
+3062,1095,2030,2024-02-07,Outpatient,,Medication refill,Not Admitted,,14778.47
+3063,1024,2047,2022-01-03,Telehealth,,Depression screening,Not Admitted,,28595.21
+3064,1137,2026,2023-12-16,Outpatient,,Dizziness,Not Admitted,,43568.18
+3065,1073,2022,2024-04-24,Outpatient,,Palpitations,Not Admitted,,26038.67
+3066,1175,2049,2023-08-03,Telehealth,,Shortness of breath,Not Admitted,,2138.99
+3067,1032,2011,2023-10-04,Telehealth,,Depression screening,Not Admitted,,20584.08
+3068,1034,2042,2023-03-15,Outpatient,,Fever,Not Admitted,,7217.06
+3069,1065,2006,2024-06-16,Outpatient,,Diabetes management follow-up,Not Admitted,,29928.06
+3070,1079,2047,2023-10-27,Outpatient,,Nausea and vomiting,Not Admitted,,19358.2
+3071,1208,2005,2022-04-04,Telehealth,,Back pain,Not Admitted,,26746.05
+3072,1212,2028,2023-06-16,Inpatient,2023-06-22,Back pain,Admitted,6.8,21535.68
+3073,1027,2007,2022-08-23,Outpatient,,Joint pain,Not Admitted,,16587.71
+3074,1193,2009,2022-11-03,Outpatient,,Back pain,Not Admitted,,3148.39
+3075,1113,2023,2023-07-31,Outpatient,,Dizziness,Not Admitted,,28291.5
+3076,1114,2014,2022-06-05,Emergency,,Abdominal pain,Not Admitted,,40354.44
+3077,1099,2023,2022-05-24,Telehealth,,Annual wellness visit,Not Admitted,,14204.08
+3078,1064,2036,2022-05-24,Outpatient,,Skin rash,Not Admitted,,27030.35
+3079,1007,2043,2023-09-15,Outpatient,,Fever,Not Admitted,,9304.65
+3080,1076,2042,2023-09-14,Outpatient,,Shortness of breath,Not Admitted,,35287.29
+3081,1029,2016,2024-03-23,Emergency,,Medication refill,Not Admitted,,28740.85
+3082,1093,2021,2022-03-14,Outpatient,,Back pain,Not Admitted,,17453.71
+3083,1175,2050,2024-05-09,Inpatient,2024-05-12,Abdominal pain,Admitted,3.8,824.77
+3084,1016,2026,2022-03-11,Outpatient,,Post-surgical follow-up,Not Admitted,,12945.46
+3085,1180,2026,2023-12-31,Outpatient,,Abdominal pain,Not Admitted,,28851.14
+3086,1080,2014,2023-07-05,Inpatient,2023-07-07,Back pain,Admitted,2.5,24172.33
+3087,1167,2020,2023-02-05,Inpatient,2023-02-16,Annual wellness visit,Admitted,11.6,32868.38
+3088,1112,2008,2024-05-16,Outpatient,,Depression screening,Not Admitted,,27582.43
+3089,1190,2012,2022-02-26,Outpatient,,Headache,Not Admitted,,643.97
+3090,1089,2034,2022-05-21,Telehealth,,Post-surgical follow-up,Not Admitted,,35250.7
+3091,1192,2050,2024-01-09,Outpatient,,Cough,Not Admitted,,33002.14
+3092,1213,2028,2022-05-01,Telehealth,,Cough,Not Admitted,,23609.15
+3093,1020,2032,2022-09-27,Telehealth,,Depression screening,Not Admitted,,23021.88
+3094,1095,2011,2022-02-26,Outpatient,,Cough,Not Admitted,,34816.8
+3095,1190,2001,2023-08-11,Inpatient,2023-08-20,Nausea and vomiting,Admitted,9.0,2140.72
+3096,1010,2036,2023-01-08,Outpatient,,Annual wellness visit,Not Admitted,,10161.35
+3097,1070,2005,2022-09-12,Outpatient,,Urinary symptoms,Not Admitted,,16823.41
+3098,1058,2003,2023-05-30,Inpatient,2023-06-12,Hypertension management,Admitted,13.5,3171.52
+3099,1080,2021,2023-04-22,Telehealth,,Abdominal pain,Not Admitted,,24922.63
+3100,1078,2048,2022-01-09,Outpatient,,Skin rash,Not Admitted,,10973.09
+3101,1198,2035,2023-01-13,Inpatient,2023-01-26,Nausea and vomiting,Admitted,13.2,6839.19
+3102,1163,2045,2023-02-24,Outpatient,,Chest pain,Not Admitted,,42798.24
+3103,1189,2047,2022-01-02,Telehealth,,Fever,Not Admitted,,4744.91
+3104,1016,2010,2023-06-27,Emergency,,Cough,Not Admitted,,4254.22
+3105,1180,2024,2022-08-26,Telehealth,,Depression screening,Not Admitted,,43856.87
+3106,1164,2038,2022-03-28,Inpatient,2022-04-11,Urinary symptoms,Admitted,14.4,2873.06
+3107,1067,2021,2023-11-10,Emergency,,Hypertension management,Not Admitted,,31555.1
+3108,1060,2005,2024-01-24,Outpatient,,Dizziness,Not Admitted,,6189.82
+3109,1043,2027,2024-02-28,Inpatient,2024-03-07,Headache,Admitted,8.5,24151.41
+3110,1068,2008,2024-02-28,Outpatient,,Abdominal pain,Not Admitted,,7155.87
+3111,1155,2003,2023-12-04,Outpatient,,Dizziness,Not Admitted,,37628.92
+3112,1092,2026,2022-12-02,Outpatient,,Post-surgical follow-up,Not Admitted,,2274.11
+3113,1008,2026,2022-11-03,Outpatient,,Depression screening,Not Admitted,,25051.22
+3114,1036,2008,2023-07-18,Outpatient,,Chest pain,Not Admitted,,2845.49
+3115,1103,2024,2024-03-10,Emergency,,Abdominal pain,Not Admitted,,26235.9
+3116,1017,2013,2022-09-23,Emergency,,Depression screening,Not Admitted,,36432.74
+3117,1085,2008,2022-04-05,Emergency,,Shortness of breath,Not Admitted,,42406.96
+3118,1186,2026,2022-02-21,Outpatient,,Medication refill,Not Admitted,,1399.49
+3119,1048,2018,2023-12-01,Outpatient,,Cough,Not Admitted,,20112.06
+3120,1063,2042,2022-06-02,Outpatient,,Fever,Not Admitted,,22487.71
+3121,1072,2013,2024-06-22,Inpatient,2024-06-29,Post-surgical follow-up,Admitted,7.1,11267.96
+3122,1207,2046,2024-04-01,Outpatient,,Diabetes management follow-up,Not Admitted,,21624.82
+3123,1129,2021,2024-03-11,Outpatient,,Hypertension management,Not Admitted,,12224.32
+3124,1200,2018,2022-01-27,Outpatient,,Shortness of breath,Not Admitted,,36403.78
+3125,1060,2011,2023-04-29,Outpatient,,Headache,Not Admitted,,11209.98
+3126,1189,2004,2022-09-04,Outpatient,,Nausea and vomiting,Not Admitted,,25937.97
+3127,1045,2012,2024-03-27,Outpatient,,Nausea and vomiting,Not Admitted,,26693.94
+3128,1152,2002,2024-04-05,Telehealth,,Diabetes management follow-up,Not Admitted,,42644.08
+3129,1127,2035,2023-08-01,Outpatient,,Fever,Not Admitted,,7961.89
+3130,1057,2002,2022-02-08,Outpatient,,Post-surgical follow-up,Not Admitted,,21548.66
+3131,1034,2022,2022-12-06,Emergency,,Fatigue,Not Admitted,,41351.23
+3132,1038,2038,2024-05-14,Telehealth,,Back pain,Not Admitted,,34863.41
+3133,1019,2024,2024-05-16,Outpatient,,Hypertension management,Not Admitted,,26401.8
+3134,1041,2047,2022-12-11,Outpatient,,Annual wellness visit,Not Admitted,,35648.53
+3135,1144,2040,2023-05-14,Inpatient,2023-05-26,Diabetes management follow-up,Admitted,12.9,10103.93
+3136,1188,2045,2023-08-27,Telehealth,,Fever,Not Admitted,,5796.13
+3137,1147,2026,2024-01-17,Outpatient,,Urinary symptoms,Not Admitted,,1529.79
+3138,1157,2015,2023-09-09,Outpatient,,Urinary symptoms,Not Admitted,,4752.15
+3139,1061,2023,2023-05-24,Outpatient,,Joint pain,Not Admitted,,7617.34
+3140,1172,2041,2024-06-25,Emergency,,Joint pain,Not Admitted,,20139.85
+3141,1090,2017,2022-09-29,Outpatient,,Headache,Not Admitted,,32439.58
+3142,1043,2027,2022-02-19,Outpatient,,Medication refill,Not Admitted,,39688.55
+3143,1123,2037,2022-12-26,Outpatient,,Nausea and vomiting,Not Admitted,,7382.34
+3144,1006,2021,2022-03-17,Telehealth,,Cough,Not Admitted,,42828.42
+3145,1042,2047,2022-03-17,Outpatient,,Abdominal pain,Not Admitted,,24651.05
+3146,1124,2046,2022-04-06,Outpatient,,Chest pain,Not Admitted,,19452.2
+3147,1041,2004,2023-11-01,Outpatient,,Headache,Not Admitted,,14949.42
+3148,1187,2035,2022-07-14,Outpatient,,Cough,Not Admitted,,29752.36
+3149,1147,2036,2022-11-01,Outpatient,,Medication refill,Not Admitted,,6975.03
+3150,1170,2041,2023-01-05,Outpatient,,Skin rash,Not Admitted,,21653.75
+3151,1075,2006,2022-04-10,Outpatient,,Medication refill,Not Admitted,,37981.33
+3152,1170,2017,2022-11-12,Telehealth,,Abdominal pain,Not Admitted,,28910.85
+3153,1095,2012,2023-02-01,Outpatient,,Depression screening,Not Admitted,,2079.42
+3154,1069,2037,2023-03-27,Outpatient,,Shortness of breath,Not Admitted,,6864.55
+3155,1089,2049,2023-12-15,Inpatient,2023-12-28,Urinary symptoms,Admitted,13.5,10296.01
+3156,1108,2035,2022-03-04,Telehealth,,Medication refill,Not Admitted,,25804.19
+3157,1183,2003,2022-08-30,Outpatient,,Post-surgical follow-up,Not Admitted,,25737.06
+3158,1159,2010,2023-06-14,Telehealth,,Headache,Not Admitted,,42720.27
+3159,1055,2013,2023-04-05,Outpatient,,Back pain,Not Admitted,,1992.21
+3160,1161,2010,2022-03-22,Emergency,,Skin rash,Not Admitted,,11660.54
+3161,1100,2036,2024-01-15,Emergency,,Hypertension management,Not Admitted,,24876.03
+3162,1004,2045,2024-05-27,Outpatient,,Skin rash,Not Admitted,,26471.86
+3163,1038,2037,2024-03-11,Outpatient,,Urinary symptoms,Not Admitted,,26251.77
+3164,1026,2019,2022-04-13,Emergency,,Palpitations,Not Admitted,,39615.1
+3165,1125,2037,2024-06-17,Outpatient,,Skin rash,Not Admitted,,21326.62
+3166,1156,2044,2022-06-26,Outpatient,,Hypertension management,Not Admitted,,1817.31
+3167,1013,2048,2024-06-29,Telehealth,,Medication refill,Not Admitted,,41443.51
+3168,1078,2020,2023-01-17,Outpatient,,Cough,Not Admitted,,37939.88
+3169,1059,2048,2024-05-28,Inpatient,2024-05-31,Depression screening,Admitted,3.3,34848.34
+3170,1166,2006,2022-11-25,Outpatient,,Dizziness,Not Admitted,,19919.12
+3171,1133,2024,2024-04-23,Outpatient,,Shortness of breath,Not Admitted,,23223.49
+3172,1104,2009,2022-06-12,Outpatient,,Post-surgical follow-up,Not Admitted,,39579.02
+3173,1052,2004,2022-01-30,Outpatient,,Nausea and vomiting,Not Admitted,,1560.72
+3174,1071,2024,2022-02-21,Emergency,,Depression screening,Not Admitted,,22767.8
+3175,1062,2024,2023-10-13,Emergency,,Medication refill,Not Admitted,,26762.41
+3176,1142,2023,2022-07-01,Emergency,,Diabetes management follow-up,Not Admitted,,7420.85
+3177,1073,2002,2022-09-22,Telehealth,,Hypertension management,Not Admitted,,2305.57
+3178,1057,2014,2024-05-24,Inpatient,2024-06-04,Cough,Admitted,11.2,29347.56
+3179,1197,2044,2023-06-10,Outpatient,,Chest pain,Not Admitted,,21373.82
+3180,1003,2020,2022-05-16,Inpatient,2022-05-20,Cough,Admitted,4.3,19114.52
+3181,1056,2030,2023-01-21,Telehealth,,Fever,Not Admitted,,30498.04
+3182,1002,2024,2024-04-24,Inpatient,2024-05-03,Palpitations,Admitted,10.0,29156.84
+3183,1124,2005,2023-09-16,Outpatient,,Joint pain,Not Admitted,,44477.12
+3184,1168,2046,2023-10-18,Outpatient,,Fever,Not Admitted,,8537.08
+3185,1154,2026,2023-06-14,Telehealth,,Joint pain,Not Admitted,,30657.95
+3186,1076,2017,2024-01-09,Outpatient,,Annual wellness visit,Not Admitted,,18251.61
+3187,1147,2013,2024-01-25,Outpatient,,Joint pain,Not Admitted,,32715.25
+3188,1122,2020,2022-08-16,Inpatient,2022-08-27,Fatigue,Admitted,11.4,37840.69
+3189,1121,2047,2024-06-16,Inpatient,2024-06-19,Palpitations,Admitted,3.7,34349.1
+3190,1168,2006,2022-07-07,Emergency,,Nausea and vomiting,Not Admitted,,16036.11
+3191,1085,2024,2024-02-02,Telehealth,,Cough,Not Admitted,,26381.76
+3192,1163,2038,2023-04-20,Telehealth,,Urinary symptoms,Not Admitted,,42497.72
+3193,1031,2044,2022-03-14,Outpatient,,Hypertension management,Not Admitted,,23877.99
+3194,1036,2013,2023-02-28,Outpatient,,Joint pain,Not Admitted,,18457.94
+3195,1037,2021,2023-08-07,Telehealth,,Fatigue,Not Admitted,,35068.93
+3196,1081,2041,2023-05-15,Outpatient,,Shortness of breath,Not Admitted,,286.75
+3197,1148,2049,2022-10-08,Outpatient,,Fatigue,Not Admitted,,22069.25
+3198,1112,2041,2024-02-21,Telehealth,,Annual wellness visit,Not Admitted,,18197.45
+3199,1052,2047,2023-05-04,Outpatient,,Diabetes management follow-up,Not Admitted,,42756.83
+3200,1005,2044,2022-11-26,Telehealth,,Chest pain,Not Admitted,,28228.91
+3201,1080,2009,2022-09-12,Outpatient,,Headache,Not Admitted,,17306.01
+3202,1012,2020,2023-08-26,Outpatient,,Fever,Not Admitted,,20557.49
+3203,1176,2032,2023-06-17,Inpatient,2023-06-20,Diabetes management follow-up,Admitted,3.3,33773.94
+3204,1104,2002,2022-06-18,Emergency,,Nausea and vomiting,Not Admitted,,10152.64
+3205,1209,2011,2022-05-15,Outpatient,,Headache,Not Admitted,,16544.12
+3206,1164,2017,2023-10-29,Telehealth,,Palpitations,Not Admitted,,28069.33
+3207,1168,2002,2023-09-01,Emergency,,Shortness of breath,Not Admitted,,31062.01
+3208,1065,2031,2023-03-03,Outpatient,,Back pain,Not Admitted,,9306.86
+3209,1170,2018,2023-12-04,Inpatient,2023-12-06,Skin rash,Admitted,2.7,27283.12
+3210,1131,2047,2022-05-21,Outpatient,,Skin rash,Not Admitted,,5364.23
+3211,1156,2013,2022-04-27,Telehealth,,Cough,Not Admitted,,37430.08
+3212,1042,2003,2022-07-26,Outpatient,,Palpitations,Not Admitted,,22373.74
+3213,1061,2006,2022-08-01,Inpatient,2022-08-02,Headache,Admitted,1.0,37597.81
+3214,1200,2033,2023-11-17,Outpatient,,Abdominal pain,Not Admitted,,32581.1
+3215,1117,2019,2022-04-14,Emergency,,Cough,Not Admitted,,20932.66
+3216,1075,2024,2022-04-13,Telehealth,,Joint pain,Not Admitted,,19212.83
+3217,1012,2001,2022-04-29,Outpatient,,Back pain,Not Admitted,,29876.22
+3218,1160,2018,2022-06-24,Outpatient,,Abdominal pain,Not Admitted,,16815.05
+3219,1117,2018,2022-12-17,Outpatient,,Hypertension management,Not Admitted,,31068.87
+3220,1043,2008,2023-05-05,Telehealth,,Back pain,Not Admitted,,31350.43
+3221,1027,2027,2022-03-02,Emergency,,Urinary symptoms,Not Admitted,,21759.17
+3222,1098,2002,2023-08-06,Inpatient,2023-08-19,Back pain,Admitted,13.4,21777.35
+3223,1012,2005,2023-05-15,Outpatient,,Cough,Not Admitted,,29499.69
+3224,1197,2048,2022-01-13,Telehealth,,Urinary symptoms,Not Admitted,,32590.53
+3225,1087,2034,2022-08-18,Emergency,,Post-surgical follow-up,Not Admitted,,30994.26
+3226,1064,2031,2023-09-26,Outpatient,,Diabetes management follow-up,Not Admitted,,29892.2
+3227,1143,2040,2023-10-19,Outpatient,,Shortness of breath,Not Admitted,,598.15
+3228,1127,2011,2022-06-10,Outpatient,,Abdominal pain,Not Admitted,,33832.99
+3229,1013,2033,2022-11-25,Outpatient,,Nausea and vomiting,Not Admitted,,24806.01
+3230,1118,2029,2023-01-23,Outpatient,,Urinary symptoms,Not Admitted,,20205.83
+3231,1128,2048,2024-05-27,Outpatient,,Chest pain,Not Admitted,,4686.25
+3232,1024,2039,2023-02-27,Outpatient,,Skin rash,Not Admitted,,28716.4
+3233,1172,2030,2024-06-30,Outpatient,,Joint pain,Not Admitted,,16398.16
+3234,1085,2036,2022-02-25,Telehealth,,Skin rash,Not Admitted,,27027.81
+3235,1030,2015,2024-01-04,Inpatient,2024-01-06,Chest pain,Admitted,2.8,15410.47
+3236,1141,2007,2024-04-29,Inpatient,2024-05-08,Shortness of breath,Admitted,9.4,40367.2
+3237,1185,2027,2023-05-20,Outpatient,,Headache,Not Admitted,,11498.95
+3238,1101,2014,2022-07-20,Outpatient,,Depression screening,Not Admitted,,37118.09
+3239,1107,2003,2022-07-15,Telehealth,,Urinary symptoms,Not Admitted,,5610.62
+3240,1130,2009,2023-04-07,Outpatient,,Medication refill,Not Admitted,,269.87
+3241,1150,2031,2024-01-24,Outpatient,,Post-surgical follow-up,Not Admitted,,35165.09
+3242,1033,2039,2022-07-01,Inpatient,2022-07-03,Skin rash,Admitted,2.4,39730.11
+3243,1156,2045,2023-06-01,Telehealth,,Nausea and vomiting,Not Admitted,,12366.29
+3244,1035,2009,2022-12-18,Emergency,,Annual wellness visit,Not Admitted,,27143.41
+3245,1180,2036,2024-06-26,Telehealth,,Joint pain,Not Admitted,,32055.96
+3246,1160,2023,2023-07-21,Inpatient,2023-08-02,Back pain,Admitted,12.3,44161.5
+3247,1139,2045,2023-10-28,Emergency,,Joint pain,Not Admitted,,31987.6
+3248,1147,2043,2024-02-19,Outpatient,,Annual wellness visit,Not Admitted,,30365.39
+3249,1109,2001,2024-05-11,Outpatient,,Post-surgical follow-up,Not Admitted,,4858.19
+3250,1052,2018,2023-01-26,Outpatient,,Fatigue,Not Admitted,,44260.19
+3251,1177,2019,2023-12-01,Outpatient,,Dizziness,Not Admitted,,33930.21
+3252,1158,2044,2022-02-03,Outpatient,,Palpitations,Not Admitted,,38928.0
+3253,1131,2045,2024-01-31,Inpatient,2024-02-13,Fever,Admitted,13.8,31205.15
+3254,1176,2021,2022-02-18,Emergency,,Palpitations,Not Admitted,,2492.06
+3255,1200,2029,2024-02-01,Outpatient,,Nausea and vomiting,Not Admitted,,41023.53
+3256,1151,2035,2023-12-23,Telehealth,,Skin rash,Not Admitted,,8901.37
+3257,1046,2044,2024-01-13,Emergency,,Abdominal pain,Not Admitted,,8474.92
+3258,1011,2028,2022-06-27,Telehealth,,Cough,Not Admitted,,25080.19
+3259,1002,2022,2022-05-14,Outpatient,,Depression screening,Not Admitted,,31957.79
+3260,1153,2004,2022-06-08,Outpatient,,Skin rash,Not Admitted,,37953.06
+3261,1092,2005,2022-11-05,Outpatient,,Joint pain,Not Admitted,,23678.37
+3262,1041,2027,2022-07-08,Outpatient,,Palpitations,Not Admitted,,24201.34
+3263,1170,2022,2022-04-05,Outpatient,,Joint pain,Not Admitted,,16283.84
+3264,1122,2036,2022-08-12,Emergency,,Chest pain,Not Admitted,,5228.88
+3265,1158,2040,2022-12-21,Outpatient,,Nausea and vomiting,Not Admitted,,43153.44
+3266,1030,2025,2023-11-30,Telehealth,,Cough,Not Admitted,,24345.16
+3267,1198,2024,2022-10-17,Outpatient,,Post-surgical follow-up,Not Admitted,,36141.54
+3268,1167,2013,2023-04-02,Outpatient,,Joint pain,Not Admitted,,23161.72
+3269,1138,2035,2022-04-09,Outpatient,,Chest pain,Not Admitted,,28239.97
+3270,1176,2014,2022-08-04,Inpatient,2022-08-11,Palpitations,Admitted,7.8,37306.53
+3271,1166,2005,2024-06-18,Emergency,,Back pain,Not Admitted,,1142.1
+3272,1014,2012,2024-01-05,Outpatient,,Cough,Not Admitted,,25146.93
+3273,1105,2025,2023-08-12,Telehealth,,Depression screening,Not Admitted,,28387.51
+3274,1031,2035,2023-03-20,Outpatient,,Chest pain,Not Admitted,,28890.92
+3275,1012,2045,2023-09-26,Outpatient,,Abdominal pain,Not Admitted,,16144.68
+3276,1078,2039,2023-05-30,Outpatient,,Abdominal pain,Not Admitted,,12722.17
+3277,1008,2031,2023-03-25,Outpatient,,Fatigue,Not Admitted,,24041.04
+3278,1140,2019,2022-05-20,Telehealth,,Back pain,Not Admitted,,13465.19
+3279,1187,2042,2024-06-27,Emergency,,Diabetes management follow-up,Not Admitted,,43085.82
+3280,1032,2039,2022-01-12,Inpatient,2022-01-13,Hypertension management,Admitted,1.0,24206.56
+3281,1186,2023,2022-03-29,Outpatient,,Dizziness,Not Admitted,,18613.5
+3282,1048,2015,2023-10-24,Telehealth,,Skin rash,Not Admitted,,37576.07
+3283,1146,2004,2022-07-18,Outpatient,,Palpitations,Not Admitted,,20797.34
+3284,1065,2007,2023-07-17,Outpatient,,Dizziness,Not Admitted,,32672.1
+3285,1172,2042,2023-05-14,Emergency,,Nausea and vomiting,Not Admitted,,4569.52
+3286,1125,2029,2023-09-27,Outpatient,,Joint pain,Not Admitted,,27764.18
+3287,1146,2028,2022-11-10,Inpatient,2022-11-16,Fatigue,Admitted,6.8,292.07
+3288,1165,2028,2022-09-10,Telehealth,,Cough,Not Admitted,,37816.94
+3289,1123,2050,2022-05-18,Inpatient,2022-05-26,Fever,Admitted,8.4,21952.19
+3290,1072,2009,2022-04-22,Outpatient,,Palpitations,Not Admitted,,8899.7
+3291,1020,2002,2024-01-22,Telehealth,,Post-surgical follow-up,Not Admitted,,28450.82
+3292,1152,2036,2024-04-12,Inpatient,2024-04-16,Cough,Admitted,4.9,24490.36
+3293,1094,2026,2023-07-07,Outpatient,,Nausea and vomiting,Not Admitted,,40122.83
+3294,1119,2033,2023-08-27,Telehealth,,Post-surgical follow-up,Not Admitted,,4143.14
+3295,1158,2044,2023-01-08,Outpatient,,Fatigue,Not Admitted,,34092.48
+3296,1145,2043,2022-05-24,Outpatient,,Back pain,Not Admitted,,33136.2
+3297,1195,2032,2023-05-11,Emergency,,Nausea and vomiting,Not Admitted,,2899.04
+3298,1133,2024,2023-01-14,Outpatient,,Hypertension management,Not Admitted,,21175.11
+3299,1167,2021,2023-04-11,Telehealth,,Headache,Not Admitted,,31690.35
+3300,1190,2037,2023-06-18,Inpatient,2023-06-23,Fatigue,Admitted,5.6,16996.43
+3301,1020,2034,2023-01-23,Outpatient,,Cough,Not Admitted,,16981.57
+3302,1089,2032,2022-08-17,Outpatient,,Medication refill,Not Admitted,,39931.2
+3303,1043,2015,2022-01-07,Outpatient,,Abdominal pain,Not Admitted,,23190.77
+3304,1093,2039,2022-10-15,Outpatient,,Headache,Not Admitted,,29775.35
+3305,1124,2044,2023-03-01,Telehealth,,Medication refill,Not Admitted,,21595.03
+3306,1006,2016,2023-08-28,Outpatient,,Shortness of breath,Not Admitted,,5820.24
+3307,1011,2037,2023-08-30,Outpatient,,Back pain,Not Admitted,,2586.85
+3308,1104,2039,2022-09-22,Emergency,,Urinary symptoms,Not Admitted,,28720.2
+3309,1073,2006,2024-06-18,Telehealth,,Dizziness,Not Admitted,,20255.46
+3310,1106,2039,2023-04-28,Telehealth,,Back pain,Not Admitted,,35773.13
+3311,1131,2017,2024-04-20,Telehealth,,Fatigue,Not Admitted,,32609.09
+3312,1018,2015,2022-12-17,Emergency,,Hypertension management,Not Admitted,,17391.88
+3313,1130,2044,2022-04-22,Outpatient,,Annual wellness visit,Not Admitted,,37206.15
+3314,1158,2039,2023-09-13,Outpatient,,Shortness of breath,Not Admitted,,39508.04
+3315,1124,2043,2023-06-29,Outpatient,,Back pain,Not Admitted,,40596.67
+3316,1199,2044,2023-07-07,Telehealth,,Annual wellness visit,Not Admitted,,23527.84
+3317,1110,2015,2023-01-15,Telehealth,,Medication refill,Not Admitted,,35545.78
+3318,1195,2045,2023-01-26,Outpatient,,Urinary symptoms,Not Admitted,,4464.93
+3319,1022,2019,2022-05-18,Outpatient,,Skin rash,Not Admitted,,39463.73
+3320,1212,2001,2023-02-23,Outpatient,,Urinary symptoms,Not Admitted,,23550.14
+3321,1177,2021,2023-06-17,Outpatient,,Annual wellness visit,Not Admitted,,16349.97
+3322,1067,2035,2022-06-08,Outpatient,,Annual wellness visit,Not Admitted,,25442.81
+3323,1194,2014,2023-09-19,Outpatient,,Annual wellness visit,Not Admitted,,24878.31
+3324,1143,2031,2023-07-25,Outpatient,,Cough,Not Admitted,,44483.73
+3325,1189,2009,2023-08-15,Outpatient,,Headache,Not Admitted,,33670.55
+3326,1026,2014,2023-04-03,Telehealth,,Post-surgical follow-up,Not Admitted,,18070.2
+3327,1176,2046,2022-12-13,Telehealth,,Shortness of breath,Not Admitted,,7296.16
+3328,1038,2031,2023-10-14,Outpatient,,Skin rash,Not Admitted,,19634.33
+3329,1156,2003,2022-03-07,Outpatient,,Hypertension management,Not Admitted,,41886.02
+3330,1183,2050,2023-02-15,Inpatient,2023-02-25,Fatigue,Admitted,10.1,28840.09
+3331,1133,2019,2023-03-26,Outpatient,,Dizziness,Not Admitted,,1584.9
+3332,1158,2011,2023-09-06,Outpatient,,Shortness of breath,Not Admitted,,16236.32
+3333,1071,2050,2023-11-02,Outpatient,,Hypertension management,Not Admitted,,15939.26
+3334,1004,2048,2023-02-09,Outpatient,,Abdominal pain,Not Admitted,,41369.05
+3335,1150,2023,2023-07-17,Outpatient,,Diabetes management follow-up,Not Admitted,,43350.7
+3336,1117,2026,2022-10-11,Outpatient,,Urinary symptoms,Not Admitted,,283.97
+3337,1019,2033,2022-06-29,Outpatient,,Fever,Not Admitted,,15347.97
+3338,1138,2037,2022-04-30,Telehealth,,Cough,Not Admitted,,31261.57
+3339,1194,2030,2023-01-22,Inpatient,2023-01-28,Depression screening,Admitted,7.0,40351.33
+3340,1018,2025,2024-06-01,Outpatient,,Nausea and vomiting,Not Admitted,,30485.32
+3341,1091,2034,2022-08-24,Telehealth,,Palpitations,Not Admitted,,511.81
+3342,1103,2044,2024-05-02,Outpatient,,Joint pain,Not Admitted,,3490.59
+3343,1147,2018,2022-07-02,Outpatient,,Fatigue,Not Admitted,,42624.28
+3344,1189,2013,2023-12-01,Emergency,,Nausea and vomiting,Not Admitted,,33114.15
+3345,1064,2040,2024-06-12,Outpatient,,Diabetes management follow-up,Not Admitted,,7083.1
+3346,1170,2032,2022-04-20,Outpatient,,Skin rash,Not Admitted,,372.57
+3347,1124,2024,2024-05-27,Outpatient,,Skin rash,Not Admitted,,14245.1
+3348,1126,2012,2024-06-21,Telehealth,,Post-surgical follow-up,Not Admitted,,12665.98
+3349,1135,2028,2022-08-16,Telehealth,,Medication refill,Not Admitted,,42288.97
+3350,1176,2050,2022-02-03,Outpatient,,Fatigue,Not Admitted,,20614.53
+3351,1177,2014,2022-05-04,Inpatient,2022-05-05,Hypertension management,Admitted,1.0,26176.79
+3352,1048,2036,2022-11-30,Outpatient,,Cough,Not Admitted,,10728.48
+3353,1048,2032,2023-04-28,Emergency,,Annual wellness visit,Not Admitted,,9533.17
+3354,1103,2018,2023-12-19,Telehealth,,Depression screening,Not Admitted,,8156.52
+3355,1026,2047,2022-05-15,Emergency,,Cough,Not Admitted,,36198.63
+3356,1038,2048,2023-07-23,Outpatient,,Back pain,Not Admitted,,21323.94
+3357,1162,2034,2022-01-10,Outpatient,,Palpitations,Not Admitted,,32446.17
+3358,1146,2004,2024-03-15,Outpatient,,Hypertension management,Not Admitted,,4521.44
+3359,1122,2041,2022-06-17,Outpatient,,Headache,Not Admitted,,20284.73
+3360,1143,2017,2022-12-09,Outpatient,,Diabetes management follow-up,Not Admitted,,966.1
+3361,1156,2013,2022-05-05,Outpatient,,Urinary symptoms,Not Admitted,,25947.06
+3362,1073,2023,2023-10-27,Outpatient,,Joint pain,Not Admitted,,30318.19
+3363,1021,2025,2023-05-15,Telehealth,,Skin rash,Not Admitted,,12947.07
+3364,1164,2022,2023-10-09,Emergency,,Annual wellness visit,Not Admitted,,28434.96
+3365,1021,2011,2023-08-09,Outpatient,,Joint pain,Not Admitted,,10327.69
+3366,1155,2029,2022-11-21,Inpatient,2022-12-02,Diabetes management follow-up,Admitted,11.4,33674.21
+3367,1048,2002,2023-06-18,Emergency,,Back pain,Not Admitted,,32770.18
+3368,1192,2006,2023-11-09,Outpatient,,Dizziness,Not Admitted,,7573.45
+3369,1122,2036,2022-04-16,Outpatient,,Shortness of breath,Not Admitted,,1259.44
+3370,1027,2017,2023-02-11,Outpatient,,Skin rash,Not Admitted,,7050.7
+3371,1059,2016,2023-11-02,Emergency,,Fever,Not Admitted,,19983.98
+3372,1008,2003,2022-05-10,Outpatient,,Diabetes management follow-up,Not Admitted,,38727.07
+3373,1139,2018,2022-11-30,Telehealth,,Palpitations,Not Admitted,,20059.66
+3374,1117,2041,2023-12-16,Outpatient,,Urinary symptoms,Not Admitted,,19616.36
+3375,1089,2006,2023-10-18,Inpatient,2023-10-26,Depression screening,Admitted,8.5,13905.98
+3376,1001,2034,2023-02-27,Outpatient,,Back pain,Not Admitted,,15524.03
+3377,1126,2049,2023-04-26,Outpatient,,Medication refill,Not Admitted,,13535.0
+3378,1060,2001,2024-02-24,Outpatient,,Palpitations,Not Admitted,,16860.95
+3379,1064,2011,2023-02-26,Telehealth,,Hypertension management,Not Admitted,,37292.08
+3380,1062,2034,2022-08-14,Outpatient,,Skin rash,Not Admitted,,36355.3
+3381,1137,2018,2023-12-03,Outpatient,,Annual wellness visit,Not Admitted,,8520.93
+3382,1164,2030,2022-03-12,Outpatient,,Skin rash,Not Admitted,,20415.57
+3383,1005,2035,2023-12-19,Inpatient,2023-12-22,Chest pain,Admitted,3.0,8428.25
+3384,1113,2047,2022-04-15,Outpatient,,Chest pain,Not Admitted,,10534.01
+3385,1108,2020,2022-06-04,Outpatient,,Medication refill,Not Admitted,,44908.51
+3386,1021,2010,2023-04-20,Inpatient,2023-05-04,Shortness of breath,Admitted,14.8,12047.67
+3387,1050,2017,2023-02-06,Outpatient,,Hypertension management,Not Admitted,,37284.22
+3388,1099,2050,2022-05-05,Emergency,,Depression screening,Not Admitted,,11178.76
+3389,1025,2034,2022-02-04,Outpatient,,Dizziness,Not Admitted,,21316.69
+3390,1041,2041,2023-11-29,Emergency,,Shortness of breath,Not Admitted,,33531.75
+3391,1164,2020,2023-07-17,Outpatient,,Dizziness,Not Admitted,,16267.17
+3392,1029,2016,2022-02-23,Telehealth,,Annual wellness visit,Not Admitted,,14653.77
+3393,1102,2016,2022-06-21,Telehealth,,Chest pain,Not Admitted,,43599.91
+3394,1153,2010,2023-08-19,Telehealth,,Diabetes management follow-up,Not Admitted,,34703.06
+3395,1159,2022,2022-09-12,Outpatient,,Shortness of breath,Not Admitted,,2760.4
+3396,1028,2009,2023-10-23,Outpatient,,Medication refill,Not Admitted,,10527.91
+3397,1113,2047,2023-07-26,Telehealth,,Dizziness,Not Admitted,,1034.28
+3398,1011,2032,2023-01-22,Outpatient,,Depression screening,Not Admitted,,25189.19
+3399,1048,2047,2023-07-10,Inpatient,2023-07-19,Depression screening,Admitted,9.3,12443.95
+3400,1042,2029,2024-05-01,Inpatient,2024-05-03,Fever,Admitted,2.5,36887.38
+3401,1211,2033,2023-07-09,Outpatient,,Hypertension management,Not Admitted,,33034.57
+3402,1199,2040,2024-06-23,Outpatient,,Nausea and vomiting,Not Admitted,,14482.18
+3403,1100,2032,2022-03-06,Inpatient,2022-03-10,Palpitations,Admitted,4.5,6999.36
+3404,1029,2007,2022-10-17,Outpatient,,Post-surgical follow-up,Not Admitted,,29675.68
+3405,1009,2013,2022-02-14,Telehealth,,Headache,Not Admitted,,21880.26
+3406,1100,2043,2022-04-12,Outpatient,,Medication refill,Not Admitted,,23697.52
+3407,1057,2001,2023-12-20,Inpatient,2023-12-30,Dizziness,Admitted,10.7,29534.54
+3408,1164,2004,2024-06-30,Telehealth,,Diabetes management follow-up,Not Admitted,,25144.04
+3409,1182,2004,2024-06-30,Outpatient,,Skin rash,Not Admitted,,12016.77
+3410,1020,2014,2022-02-11,Telehealth,,Post-surgical follow-up,Not Admitted,,4438.08
+3411,1050,2034,2024-01-13,Outpatient,,Nausea and vomiting,Not Admitted,,25683.49
+3412,1192,2037,2022-07-03,Inpatient,2022-07-05,Diabetes management follow-up,Admitted,2.8,30376.58
+3413,1043,2026,2023-12-21,Inpatient,2024-01-03,Post-surgical follow-up,Admitted,13.2,15237.77
+3414,1091,2021,2022-06-11,Outpatient,,Palpitations,Not Admitted,,44616.47
+3415,1163,2028,2022-11-29,Telehealth,,Joint pain,Not Admitted,,27407.97
+3416,1141,2048,2023-07-31,Outpatient,,Cough,Not Admitted,,16248.38
+3417,1186,2003,2023-04-09,Outpatient,,Fever,Not Admitted,,26839.64
+3418,1002,2020,2023-06-15,Outpatient,,Nausea and vomiting,Not Admitted,,9725.91
+3419,1177,2018,2022-11-19,Outpatient,,Palpitations,Not Admitted,,23043.87
+3420,1010,2030,2023-08-08,Emergency,,Diabetes management follow-up,Not Admitted,,7088.11
+3421,1060,2017,2022-09-29,Outpatient,,Fever,Not Admitted,,4203.84
+3422,1020,2031,2023-02-14,Inpatient,2023-02-26,Fatigue,Admitted,12.3,22010.82
+3423,1025,2039,2023-12-08,Telehealth,,Fever,Not Admitted,,1753.92
+3424,1015,2028,2024-04-07,Inpatient,2024-04-20,Annual wellness visit,Admitted,13.3,41866.31
+3425,1168,2039,2022-05-04,Telehealth,,Chest pain,Not Admitted,,28552.38
+3426,1011,2021,2023-10-10,Outpatient,,Palpitations,Not Admitted,,25453.71
+3427,1013,2044,2022-12-01,Outpatient,,Hypertension management,Not Admitted,,43698.98
+3428,1057,2026,2024-02-10,Inpatient,2024-02-17,Back pain,Admitted,7.3,6013.59
+3429,1141,2026,2022-03-26,Outpatient,,Cough,Not Admitted,,3897.17
+3430,1196,2009,2023-05-29,Outpatient,,Medication refill,Not Admitted,,25201.38
+3431,1144,2040,2023-05-15,Outpatient,,Post-surgical follow-up,Not Admitted,,11137.59
+3432,1176,2037,2022-03-15,Outpatient,,Abdominal pain,Not Admitted,,5130.4
+3433,1083,2023,2023-02-28,Outpatient,,Skin rash,Not Admitted,,29519.29
+3434,1158,2029,2024-02-28,Outpatient,,Skin rash,Not Admitted,,6625.89
+3435,1176,2024,2022-02-15,Emergency,,Back pain,Not Admitted,,34116.19
+3436,1063,2040,2024-05-23,Outpatient,,Back pain,Not Admitted,,39103.7
+3437,1029,2020,2024-04-19,Outpatient,,Depression screening,Not Admitted,,21243.22
+3438,1053,2035,2022-12-06,Outpatient,,Post-surgical follow-up,Not Admitted,,33784.71
+3439,1037,2045,2023-07-16,Outpatient,,Chest pain,Not Admitted,,16994.05
+3440,1016,2019,2023-11-11,Outpatient,,Dizziness,Not Admitted,,35529.29
+3441,1003,2005,2023-09-25,Outpatient,,Hypertension management,Not Admitted,,29742.25
+3442,1028,2002,2023-11-10,Telehealth,,Fever,Not Admitted,,39043.41
+3443,1131,2046,2023-10-27,Outpatient,,Headache,Not Admitted,,40681.45
+3444,1048,2013,2023-05-12,Telehealth,,Post-surgical follow-up,Not Admitted,,43508.1
+3445,1204,2034,2023-07-29,Emergency,,Fever,Not Admitted,,15060.62
+3446,1211,2023,2023-02-07,Telehealth,,Diabetes management follow-up,Not Admitted,,28163.5
+3447,1071,2004,2022-08-30,Emergency,,Cough,Not Admitted,,39549.58
+3448,1143,2018,2024-06-30,Emergency,,Nausea and vomiting,Not Admitted,,6890.49
+3449,1098,2040,2023-02-07,Inpatient,2023-02-16,Nausea and vomiting,Admitted,10.0,18823.7
+3450,1155,2022,2023-08-10,Outpatient,,Depression screening,Not Admitted,,24434.85
+3451,1176,2009,2022-07-31,Inpatient,2022-08-13,Fever,Admitted,13.2,31007.3
+3452,1198,2010,2023-06-21,Emergency,,Urinary symptoms,Not Admitted,,41276.26
+3453,1185,2008,2022-11-22,Outpatient,,Fatigue,Not Admitted,,14343.07
+3454,1206,2027,2024-06-19,Outpatient,,Annual wellness visit,Not Admitted,,13702.91
+3455,1190,2018,2024-02-03,Emergency,,Back pain,Not Admitted,,35076.42
+3456,1210,2040,2022-04-20,Outpatient,,Cough,Not Admitted,,27281.78
+3457,1176,2002,2023-09-20,Outpatient,,Diabetes management follow-up,Not Admitted,,3645.43
+3458,1155,2031,2024-03-09,Outpatient,,Diabetes management follow-up,Not Admitted,,8340.14
+3459,1050,2015,2023-02-01,Outpatient,,Shortness of breath,Not Admitted,,18430.87
+3460,1057,2048,2022-01-16,Emergency,,Dizziness,Not Admitted,,34118.11
+3461,1113,2040,2022-03-09,Outpatient,,Medication refill,Not Admitted,,30977.23
+3462,1104,2050,2024-06-06,Outpatient,,Shortness of breath,Not Admitted,,27386.25
+3463,1157,2048,2024-04-24,Outpatient,,Urinary symptoms,Not Admitted,,26751.73
+3464,1010,2030,2023-06-22,Inpatient,2023-07-01,Shortness of breath,Admitted,9.1,39509.26
+3465,1189,2003,2022-09-09,Outpatient,,Palpitations,Not Admitted,,17478.85
+3466,1075,2020,2024-02-23,Inpatient,2024-03-02,Fever,Admitted,8.4,20801.02
+3467,1177,2034,2023-03-09,Outpatient,,Back pain,Not Admitted,,20901.28
+3468,1029,2012,2023-10-24,Outpatient,,Urinary symptoms,Not Admitted,,42207.57
+3469,1083,2029,2023-12-14,Outpatient,,Chest pain,Not Admitted,,8111.12
+3470,1117,2006,2023-08-28,Telehealth,,Cough,Not Admitted,,14634.06
+3471,1184,2047,2023-10-27,Emergency,,Headache,Not Admitted,,4171.77
+3472,1135,2046,2023-12-25,Outpatient,,Hypertension management,Not Admitted,,32729.81
+3473,1141,2011,2023-06-08,Inpatient,2023-06-15,Joint pain,Admitted,7.0,25479.71
+3474,1038,2012,2023-11-07,Telehealth,,Shortness of breath,Not Admitted,,18924.71
+3475,1074,2041,2022-11-13,Telehealth,,Fatigue,Not Admitted,,5356.11
+3476,1213,2017,2022-05-15,Emergency,,Chest pain,Not Admitted,,20679.52
+3477,1156,2032,2024-05-25,Outpatient,,Nausea and vomiting,Not Admitted,,9818.06
+3478,1021,2039,2023-11-07,Outpatient,,Skin rash,Not Admitted,,370.29
+3479,1143,2014,2024-06-22,Outpatient,,Shortness of breath,Not Admitted,,8378.94
+3480,1009,2039,2022-02-26,Inpatient,2022-03-09,Fever,Admitted,11.6,14950.17
+3481,1046,2011,2022-03-31,Outpatient,,Fever,Not Admitted,,27528.21
+3482,1144,2048,2023-12-10,Inpatient,2023-12-13,Urinary symptoms,Admitted,4.0,16256.47
+3483,1095,2025,2022-02-06,Outpatient,,Abdominal pain,Not Admitted,,34148.01
+3484,1035,2018,2024-05-13,Inpatient,2024-05-15,Joint pain,Admitted,2.7,23752.84
+3485,1015,2007,2023-06-22,Outpatient,,Urinary symptoms,Not Admitted,,32858.05
+3486,1186,2045,2023-10-07,Outpatient,,Skin rash,Not Admitted,,42030.08
+3487,1082,2017,2023-12-25,Outpatient,,Post-surgical follow-up,Not Admitted,,25913.29
+3488,1145,2032,2023-10-01,Outpatient,,Post-surgical follow-up,Not Admitted,,32833.62
+3489,1157,2015,2023-05-25,Outpatient,,Fever,Not Admitted,,44068.15
+3490,1031,2048,2022-01-02,Outpatient,,Dizziness,Not Admitted,,35995.43
+3491,1144,2041,2023-03-01,Outpatient,,Dizziness,Not Admitted,,582.53
+3492,1018,2036,2022-07-26,Inpatient,2022-07-31,Joint pain,Admitted,5.3,34533.94
+3493,1186,2002,2022-04-27,Inpatient,2022-05-07,Fatigue,Admitted,10.6,8791.15
+3494,1122,2003,2024-05-03,Outpatient,,Back pain,Not Admitted,,21706.19
+3495,1086,2030,2023-10-05,Outpatient,,Annual wellness visit,Not Admitted,,41755.96
+3496,1186,2044,2022-02-27,Telehealth,,Joint pain,Not Admitted,,25016.34
+3497,1091,2005,2022-01-20,Outpatient,,Back pain,Not Admitted,,12674.67
+3498,1137,2011,2022-02-01,Outpatient,,Urinary symptoms,Not Admitted,,27285.58
+3499,1193,2021,2022-07-11,Inpatient,2022-07-16,Shortness of breath,Admitted,5.7,12272.02
+3500,1116,2020,2022-03-30,Outpatient,,Dizziness,Not Admitted,,23665.14

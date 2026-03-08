@@ -1,0 +1,51 @@
+provider_id,npi,first_name,last_name,specialty,facility_id,license_state,is_active
+2001,3465883999,Paul,Mitchell,Dermatology,3001,ID,True
+2002,4949801453,Sharon,Sanchez,Urology,3008,ID,True
+2003,5334769475,Andrew,Hill,Family Medicine,3006,ME,True
+2004,5031086659,Jason,Allen,Pulmonology,3005,IL,True
+2005,8435100486,Carol,Taylor,Dermatology,3003,AL,True
+2006,4252504650,Susan,Flores,Rheumatology,3007,NV,True
+2007,1409675904,William,Walker,Neurology,3004,AL,True
+2008,6710697191,Donna,Campbell,Oncology,3001,KY,True
+2009,9856756553,Linda,Robinson,Orthopedics,3003,MT,True
+2010,8601409432,Brian,Davis,Psychiatry,3005,MS,True
+2011,5111832212,Donald,Martinez,Pulmonology,3010,MS,True
+2012,9215400091,Timothy,Wright,Urology,3004,WI,False
+2013,4381731378,Kimberly,Lewis,Nephrology,3006,CA,True
+2014,3304937838,David,Lee,Rheumatology,3009,NH,True
+2015,3099500153,Steven,Lewis,Urology,3001,NJ,False
+2016,9837912162,Ashley,Baker,Urology,3005,WA,True
+2017,4506639908,Deborah,Wilson,Oncology,3002,AZ,True
+2018,9863781331,Patricia,Jones,Infectious Disease,3008,AZ,True
+2019,4302709858,Stephanie,Adams,Dermatology,3007,MS,True
+2020,6916301780,Jennifer,Baker,Psychiatry,3009,FL,True
+2021,5203589186,Sharon,Smith,Urology,3001,MD,True
+2022,7633342225,Paul,Harris,Rheumatology,3004,KS,True
+2023,2183906581,George,Carter,Family Medicine,3001,TX,True
+2024,4818403515,Sarah,Wilson,Family Medicine,3002,RI,True
+2025,4746123831,Sarah,Mitchell,Internal Medicine,3007,NH,False
+2026,4333167876,William,Allen,Orthopedics,3004,WA,True
+2027,2377246195,Lisa,Martinez,Psychiatry,3009,IA,True
+2028,9851745648,Donna,Mitchell,Infectious Disease,3003,SD,True
+2029,7547518979,Brian,Clark,Gastroenterology,3003,MD,True
+2030,7605351600,Sarah,Anderson,Orthopedics,3003,NJ,True
+2031,9451577335,Emily,King,Cardiology,3007,KS,True
+2032,3777580509,Mark,White,Family Medicine,3009,WA,False
+2033,1312606333,Rebecca,Carter,Oncology,3009,IN,True
+2034,9190643621,Lisa,Smith,Endocrinology,3004,WV,True
+2035,8534793156,Sarah,Hall,Oncology,3004,MT,False
+2036,8625774078,Matthew,Robinson,Nephrology,3006,MD,True
+2037,9086615744,Ashley,Miller,Urology,3008,WI,True
+2038,6887132821,Anthony,Williams,Oncology,3004,WV,False
+2039,0694113766,Donna,Nguyen,Dermatology,3007,ME,False
+2040,6282889763,Andrew,Thomas,Pulmonology,3009,TN,True
+2041,8823677798,George,Adams,Dermatology,3008,NJ,False
+2042,2512585138,William,Campbell,Nephrology,3008,ID,True
+2043,5111301175,Kimberly,Williams,Rheumatology,3002,TX,True
+2044,2771211118,Sharon,Green,Endocrinology,3002,VA,False
+2045,0643026584,Ashley,White,Internal Medicine,3010,SD,True
+2046,8126571968,Mary,Smith,Nephrology,3009,NE,True
+2047,0875448533,Karen,Wright,Orthopedics,3001,NC,True
+2048,4907446848,Michael,Miller,Nephrology,3003,KS,False
+2049,6817280229,Ronald,Sanchez,Family Medicine,3006,MT,True
+2050,6265016831,Amanda,Garcia,Psychiatry,3001,CO,True

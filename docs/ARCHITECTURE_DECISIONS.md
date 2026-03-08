@@ -132,6 +132,19 @@ values adaptability per engagement over zero-touch repeatability.
 
 ---
 
+## ADR-007: Phase 0 Agent SDK — Anthropic Python SDK (Direct)
+
+**Decision:** Use the Anthropic Python SDK directly (`anthropic` pip package) for Phase 0, bypassing Semantic Kernel.
+
+**Rationale:** ADR-001 selected Semantic Kernel for production orchestration (ADF, Azure SQL, Power BI REST, XMLA/TOM plugins). However, Phase 0 is a single-agent loop — read CSVs, call Claude, write artifacts. Semantic Kernel adds plugin registration, kernel config, and service abstraction overhead that slows down the first working iteration. The Anthropic SDK's tool runner and structured outputs handle Phase 0's needs directly. Claude Opus 4.6 with adaptive thinking is used for the inference call; structured JSON output (`output_config.format`) guarantees parseable artifacts.
+
+**Future considerations:**
+- Re-introduce Semantic Kernel in Phase 1 when there are multiple agents (ingestion, schema, model, report) that need to be orchestrated as plugins with shared kernel state.
+- The schema agent's Claude API call will become one Semantic Kernel plugin among several — the interface contract (CSV profiles in, DDL/relationships/TMDL/checklist out) is already defined and won't change.
+- Monitor Semantic Kernel's Anthropic connector support — as of early 2026 it is less mature than the Azure OpenAI connector. May need a custom connector for Phase 1.
+
+---
+
 ## General Technical Debt (POC → Production)
 
 | Area | POC Shortcut | Production Requirement |

@@ -1,0 +1,201 @@
+patient_id,first_name,last_name,date_of_birth,gender,race_ethnicity,zip_code,primary_insurance,created_date,is_active
+1001,Amanda,Mitchell,1997-05-13,male,Black or African American,42098,None,2020-05-14,1
+1002,Melissa,Adams,11/07/1942,Male,Unknown,76237,Aetna,2020-07-08,True
+1003,Barbara,Wilson,1992-11-12,MALE,Two or More Races,30926,Medicaid,2018-07-09,True
+1004,Ashley,Wright,1974-01-31,MALE,Black or African American,89131,Humana,2018-06-11,True
+1005,John,Nelson,1989-07-11,M,Asian,57400,UnitedHealth,2018-06-13,1
+1006,Betty,Thompson,1960-11-19,Female,Asian,69429,UnitedHealth,2021-12-08,True
+1007,Ashley,Harris,2001-04-28,M,American Indian or Alaska Native,32431,Tricare,2019-03-26,True
+1008,Christopher,Sanchez,2001-06-02,male,American Indian or Alaska Native,17331,Medicaid,2019-03-09,True
+1009,Carol,Robinson,1990-11-19,Female,Hispanic or Latino,95909,UnitedHealth,2018-10-13,true
+1010,Betty,Anderson,1962-02-15,Female,Hispanic or Latino,86622,Tricare,2020-10-07,True
+1011,Sandra,Hill,1948-02-26,MALE,Black or African American,30033,Humana,2020-02-21,1
+1012,George,Davis,1993-06-17,Female,American Indian or Alaska Native,82512,Cigna,2018-08-17,True
+1013,Steven,Miller,1966-05-01,Female,American Indian or Alaska Native,44522,Tricare,2021-06-01,1
+1014,James,Hill,1957-11-04,male,Two or More Races,80697,Self-Pay,2018-02-09,true
+1015,Andrew,Garcia,1950-01-13,MALE,Black or African American,50306,Self-Pay,2022-07-30,True
+1016,Emily,Hernandez,1946-03-17,Female,American Indian or Alaska Native,26483,Tricare,2022-11-22,True
+1017,Melissa,Martin,1994-06-02,Male,Unknown,80686,Cigna,2020-06-16,1
+1018,Joseph,Nguyen,1986-06-07,Male,Asian,18392,Medicare,2018-05-26,True
+1019,Sarah,Moore,2003-07-03,Male,Declined to Specify,14117,Aetna,2021-01-09,True
+1020,Rebecca,Clark,1951-11-14,MALE,Asian,85525,Medicaid,2018-07-18,1
+1021,Carol,Adams,1999-02-13,Female,Black or African American,71213,Medicare,2020-04-04,True
+1022,William,Ramirez,2005-05-01,MALE,Hispanic or Latino,42591,UnitedHealth,2020-08-05,True
+1023,Jennifer,Carter,1962-05-30,Male,Asian,82132-9856,BCBS Commercial,2020-04-12,0
+1024,Matthew,Taylor,1983-07-27,MALE,Declined to Specify,17685,UnitedHealth,2020-05-16,True
+1025,Richard,Jackson,2002-06-29,,Asian,82845,Medicare,2021-04-01,True
+1026,Jason,King,1988-08-22,Female,Hispanic or Latino,16572,Medicare,2020-11-06,True
+1027,Linda,Torres,1947-03-10,Male,Asian,18907,None,2021-05-02,True
+1028,Thomas,Wilson,1943-07-26,Female,Two or More Races,86503,Aetna,2019-06-28,True
+1029,Robert,Smith,1975-07-05,F,Declined to Specify,69929,None,2021-02-27,1
+1030,Robert,Thomas,1948-12-20,Male,Two or More Races,44760,UnitedHealth,2018-11-20,True
+1031,Kimberly,Smith,1979-04-24,F,American Indian or Alaska Native,90173,Medicaid,2022-12-04,1
+1032,Jessica,Rivera,1952-01-18,FEMALE,Two or More Races,82512,Aetna,2021-11-08,True
+1033,Jennifer,Green,1996-11-24,Female,Unknown,42914,UnitedHealth,2018-04-01,0
+1034,Melissa,Ramirez,1940-04-26,Male,White Non-Hispanic,44335,Medicaid,2018-06-04,True
+1035,William,Williams,2001-12-29,Female,American Indian or Alaska Native,58393,Cigna,2022-06-19,True
+1036,Emily,Clark,1943-07-31,Male,Hispanic or Latino,42706,Aetna,2022-11-06,True
+1037,Anthony,Nelson,1954-07-30,female,Asian,64040-6442,UnitedHealth,2018-11-23,1
+1038,Ashley,Thompson,2002-11-30,MALE,American Indian or Alaska Native,71694,Aetna,2019-04-02,1
+1039,Karen,Thompson,1942-02-14,Female,Unknown,46517,Tricare,2019-11-10,false
+1040,John,Miller,1942-06-23,Unknown,Unknown,33405,Cigna,2022-02-01,false
+1041,Thomas,Williams,1968-02-21,Unknown,Unknown,25157,Medicare,2020-11-30,True
+1042,Kevin,Perez,1988-04-21,Other,Two or More Races,97900,Medicaid,2022-01-14,True
+1043,William,Gonzalez,1966-12-10,F,Unknown,52753,Humana,2021-10-19,True
+1044,Jessica,Ramirez,1955-08-12,Female,Two or More Races,81819,Self-Pay,2020-06-23,True
+1045,Kevin,Green,1979-09-01,Female,Two or More Races,32241,Medicaid,2022-08-04,True
+1046,Donald,Flores,1961-01-26,Male,Black or African American,36100,Self-Pay,2020-04-28,True
+1047,Carol,Hall,1996-07-01,male,White Non-Hispanic,60328,Medicaid,2022-05-14,True
+1048,Jason,Davis,1978-02-21,female,Declined to Specify,77889,BCBS Commercial,2022-06-30,True
+1049,Mark,Flores,1981-09-07,,Unknown,88047,Tricare,2020-07-02,1
+1050,Karen,Roberts,1954-04-12,Female,Declined to Specify,43972,Aetna,2019-07-17,0
+1051,Jennifer,Rodriguez,1979-06-18,Female,Hispanic or Latino,45614,Aetna,2020-02-24,true
+1052,Anthony,Brown,2002-04-04,Male,Asian,64377,Humana,2020-03-08,True
+1053,Daniel,Martin,1992-05-26,Male,Unknown,85456,Humana,2021-01-07,True
+1054,Dorothy,Johnson,2005-11-27,M,Unknown,38906,Cigna,2021-10-01,True
+1055,Paul,Johnson,2000-12-05,male,Unknown,71261,None,2021-03-01,false
+1056,Thomas,Harris,06/25/1999,F,Two or More Races,27786,Aetna,2020-07-20,True
+1057,Thomas,Garcia,1969-04-28,MALE,Declined to Specify,46471,Medicare,2022-03-15,0
+1058,Carol,Williams,1988-05-23,Other,White Non-Hispanic,39389,Aetna,2019-02-13,1
+1059,Jessica,Robinson,1941-10-29,Male,American Indian or Alaska Native,72070,Cigna,2018-12-10,True
+1060,Lisa,Miller,1994-05-10,male,White Non-Hispanic,25012,UnitedHealth,2021-03-25,True
+1061,Stephanie,Martin,2000-10-07,Female,Black or African American,35995-4978,None,2022-05-22,True
+1062,Anthony,Young,1943-09-07,Female,Black or African American,58571-6590,Humana,2020-01-12,True
+1063,Carol,Moore,1997-01-07,Female,Declined to Specify,30052,Self-Pay,2020-06-11,1
+1064,Mark,Thomas,2005-08-01,Female,Declined to Specify,42177,None,2021-06-03,True
+1065,Rebecca,Taylor,1999-12-12,Male,Two or More Races,52600,UnitedHealth,2022-12-08,True
+1066,Sarah,Campbell,1993-06-25,Male,Unknown,11330,Self-Pay,2021-02-11,True
+1067,Charles,Anderson,1961-07-23,F,Unknown,74332,Aetna,2019-09-20,True
+1068,Emily,Perez,1999-07-26,Female,Two or More Races,79588,Self-Pay,2019-07-09,false
+1069,Timothy,Hall,1967-07-05,Male,Hispanic or Latino,35242,Aetna,2019-03-20,1
+1070,Sharon,Gonzalez,1983-06-10,M,American Indian or Alaska Native,78765,Aetna,2020-01-10,false
+1071,Emily,Jackson,1956-02-05,male,Hispanic or Latino,26591,Self-Pay,2018-07-30,false
+1072,Thomas,Walker,1941-02-05,Female,Black or African American,67733,Medicaid,2020-03-31,false
+1073,Lisa,Garcia,1984-02-12,M,Asian,17026,Medicaid,2021-02-16,1
+1074,Mark,Martin,1977-05-03,female,Unknown,39581,UnitedHealth,2021-03-10,True
+1075,Jessica,Taylor,1995-09-18,Unknown,Black or African American,23006,BCBS Commercial,2019-05-07,True
+1076,Charles,Williams,1955-08-05,Male,Asian,63545,UnitedHealth,2021-12-18,True
+1077,Joshua,Nguyen,1965-05-13,Female,Asian,40595,Humana,2018-08-24,1
+1078,David,Martin,1988-11-08,Male,American Indian or Alaska Native,44816,Self-Pay,2018-09-12,True
+1079,Jennifer,Hill,1982-01-18,F,White Non-Hispanic,45683,Humana,2022-02-13,True
+1080,Andrew,Nguyen,1968-11-30,Male,White Non-Hispanic,40005,UnitedHealth,2021-03-26,0
+1081,Susan,Nguyen,1943-08-11,Male,Unknown,78021,Self-Pay,2018-07-06,true
+1082,Anthony,Hall,1982-03-02,Female,Declined to Specify,97835,UnitedHealth,2021-09-18,True
+1083,Stephanie,Sanchez,1975-12-05,Female,White Non-Hispanic,69614-5135,Tricare,2020-08-04,True
+1084,Timothy,Brown,1977-01-27,Female,Asian,91609,UnitedHealth,2021-01-29,False
+1085,Kenneth,Thomas,1951-10-03,Female,Hispanic or Latino,73532,UnitedHealth,2021-02-02,false
+1086,Sharon,Martinez,1941-03-24,Male,Declined to Specify,24871,UnitedHealth,2020-11-08,True
+1087,Matthew,Gonzalez,2003-04-14,female,Hispanic or Latino,71894,Medicaid,2019-07-20,True
+1088,Lisa,Nguyen,1977-03-23,female,Declined to Specify,45018,BCBS Commercial,2020-07-03,True
+1089,Laura,Gonzalez,1988-04-26,Female,Asian,81228,None,2020-02-24,true
+1090,Rebecca,Harris,1960-12-14,Female,Unknown,51704,BCBS Commercial,2020-10-11,1
+1091,Mark,Miller,1943-04-28,Unknown,Declined to Specify,53515,Medicare,2022-01-19,0
+1092,Brian,Sanchez,1952-12-06,F,Black or African American,30232-5342,Cigna,2022-10-12,True
+1093,Dorothy,Wright,2000-07-01,Female,White Non-Hispanic,51505,None,2018-05-21,true
+1094,Michael,Carter,1961-01-22,FEMALE,Black or African American,39817,Self-Pay,2018-12-07,True
+1095,Betty,Ramirez,2002-04-06,Male,Hispanic or Latino,52516,Aetna,2020-12-23,True
+1096,Matthew,Flores,1976-12-19,female,Asian,32280,Self-Pay,2021-04-09,False
+1097,Rebecca,Robinson,1952-11-02,F,American Indian or Alaska Native,70236,Tricare,2018-11-20,True
+1098,Brian,Taylor,1946-08-17,Female,Declined to Specify,87014,UnitedHealth,2019-02-12,false
+1099,Brian,Jackson,1974-07-06,Male,White Non-Hispanic,59986,Humana,2019-07-17,True
+1100,Sharon,Jackson,1940-09-22,F,Asian,16428,None,2022-07-01,1
+1101,Kevin,Baker,1971-08-10,Male,Hispanic or Latino,42850,Medicaid,2021-07-09,1
+1102,Jennifer,Jackson,12/26/1997,female,Two or More Races,14373,Humana,2018-12-26,1
+1103,Sharon,Hernandez,1958-01-05,Female,American Indian or Alaska Native,57953,Self-Pay,2022-07-10,true
+1104,Timothy,Anderson,1966-06-24,Female,Unknown,25095,Tricare,2020-01-20,True
+1105,Deborah,Baker,1948-02-07,Male,American Indian or Alaska Native,80329,None,2020-02-20,True
+1106,Emily,Lee,1997-04-14,Male,Asian,40647,Medicaid,2021-07-25,False
+1107,John,Martin,1981-08-26,Female,Declined to Specify,63516,Medicaid,2018-07-19,True
+1108,Brian,Wright,1961-01-23,Male,Unknown,69459,None,2022-03-01,true
+1109,Karen,Williams,2005-03-09,Female,Two or More Races,22978,Aetna,2020-06-27,False
+1110,Carol,Thompson,1979-11-23,MALE,White Non-Hispanic,23022,Humana,2019-07-20,True
+1111,Kenneth,Johnson,1957-01-10,Other,White Non-Hispanic,69600-4475,Cigna,2019-05-14,False
+1112,Laura,Anderson,1951-04-19,Male,Two or More Races,82641,BCBS Commercial,2022-06-04,True
+1113,Rebecca,Lopez,06/20/1993,MALE,Black or African American,28964,Medicare,2018-09-27,True
+1114,Patricia,Rodriguez,1941-05-01,female,Unknown,87182,Tricare,2018-08-21,True
+1115,Joseph,Flores,1945-09-13,female,White Non-Hispanic,77271,Tricare,2019-09-10,True
+1116,Michael,Young,1981-02-03,Male,Declined to Specify,72781,Medicaid,2018-06-15,True
+1117,Melissa,Lee,1968-11-23,Male,Unknown,46046,None,2020-12-22,True
+1118,Carol,Adams,1966-06-16,M,Asian,22999,Humana,2020-07-13,True
+1119,Sandra,Lee,1960-07-01,female,American Indian or Alaska Native,62262,Cigna,2018-11-09,True
+1120,Betty,Rodriguez,2001-08-13,Male,White Non-Hispanic,21188-2582,None,2021-02-24,1
+1121,Sandra,Campbell,1990-05-23,Male,White Non-Hispanic,56346,UnitedHealth,2021-05-14,true
+1122,Jason,Miller,1968-01-12,M,Two or More Races,37884,Tricare,2020-01-23,True
+1123,Edward,Flores,1950-04-22,M,White Non-Hispanic,66244,None,2021-09-09,false
+1124,Susan,Martinez,2002-03-19,Male,Unknown,50499,Medicaid,2018-10-18,True
+1125,Nancy,Hernandez,1996-10-20,Male,Two or More Races,79531,UnitedHealth,2022-01-17,True
+1126,Timothy,Flores,1969-02-06,M,White Non-Hispanic,21135,Medicaid,2019-07-12,True
+1127,Steven,Davis,1979-10-02,Female,Two or More Races,67939,Humana,2018-08-16,True
+1128,Margaret,Hill,1965-05-30,M,White Non-Hispanic,79066,Medicare,2019-02-23,True
+1129,Dorothy,Mitchell,1967-01-15,male,Unknown,43491,BCBS Commercial,2018-09-22,True
+1130,Robert,Sanchez,1974-02-09,Male,White Non-Hispanic,83233,Humana,2018-02-08,1
+1131,Joshua,Clark,1981-03-31,MALE,American Indian or Alaska Native,85465,Medicaid,2020-04-09,True
+1132,Betty,Garcia,1941-11-14,Male,Unknown,91018,Medicaid,2019-05-14,1
+1133,Joseph,Perez,1979-02-01,Female,Hispanic or Latino,61873,Medicaid,2020-11-11,1
+1134,Carol,Martinez,1996-10-22,Female,Asian,55793,Medicaid,2018-10-27,true
+1135,Andrew,Carter,1962-12-18,M,Declined to Specify,95918-9095,None,2021-08-09,True
+1136,Donald,Lewis,1996-12-29,Female,American Indian or Alaska Native,92210,UnitedHealth,2021-04-26,True
+1137,Sharon,Jackson,1945-01-14,Male,Black or African American,70521,Medicaid,2021-06-13,True
+1138,John,Lewis,1993-04-18,Female,Asian,82655,Cigna,2021-05-24,1
+1139,Nancy,Rivera,1982-09-02,Other,Black or African American,69050,Tricare,2021-08-16,true
+1140,Betty,White,06/25/1955,male,American Indian or Alaska Native,67595,Humana,2020-04-17,False
+1141,Michael,Scott,1970-05-10,Male,Unknown,92691,UnitedHealth,2019-06-01,True
+1142,Donna,Nelson,2004-12-05,Unknown,Hispanic or Latino,88997,Cigna,2019-09-28,True
+1143,Emily,Harris,1998-11-09,Female,Two or More Races,87993,BCBS Commercial,2021-10-04,True
+1144,Kevin,Ramirez,2003-01-20,male,Two or More Races,99838,Medicare,2020-01-13,True
+1145,Barbara,Jones,1967-09-16,Male,American Indian or Alaska Native,73736,Medicaid,2020-11-05,false
+1146,Michelle,Rodriguez,1988-06-04,MALE,Unknown,14947,BCBS Commercial,2018-11-29,0
+1147,Betty,Baker,1956-03-22,male,Asian,31697,Self-Pay,2021-06-04,True
+1148,Rebecca,Walker,1965-07-24,female,Asian,40671,Cigna,2021-10-21,True
+1149,Anthony,Hernandez,1991-03-05,Female,Asian,46932,None,2018-10-11,True
+1150,Jason,King,1962-06-06,Female,Black or African American,58655,UnitedHealth,2018-06-21,True
+1151,Joseph,Lewis,1954-05-20,FEMALE,Two or More Races,29313,Medicare,2020-04-29,True
+1152,Mary,Lee,1944-10-11,Female,Black or African American,60615,Cigna,2022-06-09,True
+1153,Melissa,Walker,1953-02-06,Female,Declined to Specify,71925,None,2018-01-11,True
+1154,Kimberly,Ramirez,02/09/1947,Male,Black or African American,29597,UnitedHealth,2019-05-02,1
+1155,Linda,Young,1967-01-07,Male,White Non-Hispanic,93748,Tricare,2021-03-23,True
+1156,Anthony,Lopez,1961-09-14,Female,Black or African American,10205,Tricare,2020-01-09,True
+1157,Donald,Williams,1946-01-26,Female,Unknown,76535,Cigna,2019-06-04,True
+1158,Stephanie,Nguyen,1941-06-16,Male,Two or More Races,41604,BCBS Commercial,2018-04-01,False
+1159,Brian,Walker,1971-08-10,female,Hispanic or Latino,32949,BCBS Commercial,2018-05-10,1
+1160,John,Lee,2004-03-28,Female,American Indian or Alaska Native,48462,Tricare,2020-03-26,1
+1161,Stephanie,Brown,1988-09-19,Male,Two or More Races,94790,UnitedHealth,2018-09-12,True
+1162,Susan,Young,1973-01-06,Female,Declined to Specify,67637,Cigna,2022-06-21,True
+1163,Christopher,Miller,1986-08-02,Male,Black or African American,65640-3956,Cigna,2021-09-15,True
+1164,Mark,Williams,1966-07-10,M,Two or More Races,65851,None,2020-06-09,True
+1165,Rebecca,Mitchell,1964-08-18,female,Hispanic or Latino,17518-7655,Medicare,2018-10-20,True
+1166,Andrew,Williams,1994-07-04,Female,Hispanic or Latino,26545-7001,Self-Pay,2020-01-30,True
+1167,Carol,Moore,1973-05-17,Male,Asian,28047,Medicaid,2018-02-23,True
+1168,Melissa,Lewis,2005-12-31,Female,Asian,83619,None,2019-08-08,1
+1169,Susan,Rivera,2002-04-05,Female,Declined to Specify,26074,Medicaid,2022-07-18,True
+1170,Paul,Jackson,2001-03-06,,American Indian or Alaska Native,97535,BCBS Commercial,2021-12-28,True
+1171,Richard,Rodriguez,2003-08-28,F,Asian,57381,Self-Pay,2018-02-23,True
+1172,Robert,Martin,1972-05-17,Female,Unknown,82305,Self-Pay,2020-12-12,true
+1173,Robert,Lewis,1976-11-07,female,Declined to Specify,19666,Tricare,2019-12-07,True
+1174,William,Ramirez,1951-07-07,female,White Non-Hispanic,93859,Medicaid,2020-11-27,1
+1175,Charles,Garcia,1953-09-23,Male,American Indian or Alaska Native,39552,Aetna,2021-07-24,true
+1176,David,Nguyen,1989-06-01,M,Hispanic or Latino,90534,BCBS Commercial,2021-09-11,True
+1177,Carol,Roberts,1996-01-09,M,American Indian or Alaska Native,83874-1464,Aetna,2022-04-20,True
+1178,Carol,Martin,1991-04-30,F,Declined to Specify,75278,Aetna,2022-07-07,True
+1179,Ashley,Wilson,2001-06-14,Female,Two or More Races,17852,None,2018-10-22,True
+1180,Betty,Allen,1968-01-16,Female,Black or African American,55268,Cigna,2019-05-11,True
+1181,Laura,Flores,1981-11-06,Female,Unknown,28465-5754,Aetna,2022-11-08,true
+1182,Steven,Robinson,1954-04-30,Other,Declined to Specify,50988,UnitedHealth,2020-10-15,True
+1183,Daniel,Brown,1942-01-29,Female,White Non-Hispanic,69930,UnitedHealth,2020-10-10,True
+1184,Michael,Ramirez,1993-08-09,F,Hispanic or Latino,71680,UnitedHealth,2022-01-29,True
+1185,Charles,Jones,1972-10-24,Female,Unknown,62505-4189,Tricare,2020-07-11,True
+1186,Michael,Sanchez,1989-04-30,,Two or More Races,99181,Cigna,2021-02-16,True
+1187,John,Rodriguez,1972-10-19,Male,Two or More Races,76731,Self-Pay,2020-11-29,True
+1188,David,Sanchez,1980-12-30,FEMALE,American Indian or Alaska Native,28321,None,2019-11-20,False
+1189,Betty,Perez,1985-07-06,Female,Black or African American,83783,Humana,2021-04-10,1
+1190,Carol,Roberts,1967-08-08,male,Asian,92478-8775,Medicare,2021-04-10,True
+1191,Edward,Baker,1983-02-07,M,Asian,91230,Medicare,2021-03-18,True
+1192,Jessica,Clark,2002-11-05,Male,Declined to Specify,51116,Medicare,2021-12-16,True
+1193,Susan,Robinson,1952-05-21,Female,Two or More Races,96799,Tricare,2019-12-27,True
+1194,Donald,Gonzalez,2000-08-19,male,Asian,94319,UnitedHealth,2021-02-16,True
+1195,Brian,Rivera,1966-10-12,Unknown,Declined to Specify,49008,Cigna,2020-09-09,1
+1196,Paul,Harris,1971-04-17,Other,Unknown,45842,Cigna,2022-05-03,True
+1197,Thomas,Mitchell,1953-02-20,Female,Declined to Specify,20358,Aetna,2019-02-18,True
+1198,Donna,Thomas,1988-04-26,Female,Asian,45601,Medicare,2021-10-03,False
+1199,Michael,Baker,1987-08-23,Male,Hispanic or Latino,23133,Medicare,2021-02-01,1
+1200,Charles,Lee,1954-03-03,Other,American Indian or Alaska Native,72350,Medicare,2022-04-24,True

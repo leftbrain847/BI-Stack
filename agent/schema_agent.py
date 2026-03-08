@@ -179,7 +179,7 @@ def infer_schema(profiles: list[dict], model: str | None = None) -> dict:
     # Adaptive thinking is enabled — Claude will reason before responding.
     with client.messages.stream(
         model=model_id,
-        max_tokens=8000,
+        max_tokens=16000,
         thinking={"type": "adaptive"},
         system=_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_content}],

@@ -215,9 +215,38 @@ Identified gaps before Azure integration. Items are ranked by risk.
 - **Action:** Update schema agent output to include a `CREATE INDEX` block per table. Cluster on SK for dims; cluster on date + FK for facts. Add NCI on columns flagged as high-cardinality identifiers.
 
 #### 9. Azure Free Tier Limits
-- Azure free SQL tier (250 GB, 32 DTUs on Basic) will constrain pipeline performance quickly.
-- Blob Storage free tier (5 GB) limits raw file staging.
-- **Action:** Document tier upgrade triggers: move to S1/S2 when query times exceed 30s or storage exceeds 4 GB. Budget ~$15–$30/month for POC beyond free tier.
+
+**Azure SQL Database**
+- The free offer (32 vCore-seconds/second, 32 GB storage) is adequate for schema creation and small test loads but will throttle under any real query load.
+- Power BI DirectQuery hits the database on every report interaction — free tier DTU limits will cause timeouts the first time you open a report against a table with more than ~50K rows.
+- Import mode (scheduled refresh) is more forgiving but still competes with ADF pipeline writes for connection slots.
+- **Upgrade trigger:** Move to Basic ($5/month, 5 DTUs) or S1 ($30/month, 20 DTUs) as soon as Power BI refresh is connected. S1 is the minimum viable tier for concurrent pipeline + report workloads.
+
+**Azure Data Factory**
+- ADF has no meaningful free tier for pipeline orchestration. The free 5 activities/month is exhausted by a single test run.
+- ADF is billed per activity run (~$0.001) and per DIU-hour for data movement. A simple CSV-to-SQL pipeline costs pennies per run, but it is not free.
+- For POC scheduling, consider **Azure Logic Apps** (first 4,000 actions/month free) or a local cron job calling the existing `run.py` script via Azure VM/Function to defer ADF cost.
+- **Upgrade trigger:** Introduce ADF when you need dependency chaining between pipeline steps (e.g., blob arrival → profile → load → refresh) or when you need the visual monitoring and retry UI. Don't pay for it to run a single script on a schedule.
+
+**Azure Blob Storage**
+- Free tier (5 GB LRS, 12 months) is sufficient for CSV staging at POC data volumes.
+- At ~1 MB per synthetic CSV file, you have headroom for thousands of runs before hitting limits.
+- Cost after free tier is negligible (~$0.02/GB/month for LRS). Not a constraint.
+
+**Azure Functions (alternative to ADF for scheduling)**
+- Consumption plan: first 1 million executions/month free, then $0.20/million.
+- A Functions-based trigger (blob trigger on new file → call `run.py` logic) is a cost-effective ADF substitute for POC and can be refactored into ADF pipelines later without changing business logic.
+
+**Realistic POC monthly cost beyond free tier:**
+| Service | Tier | Est. Monthly Cost |
+|---------|------|-------------------|
+| Azure SQL | S1 | ~$30 |
+| Blob Storage | LRS | <$1 |
+| ADF (if used) | Pay-per-use | ~$5–$15 |
+| Azure Functions (ADF alternative) | Consumption | ~$0 |
+| **Total** | | **~$30–$45/month** |
+
+- **Action:** Start with Azure Functions (not ADF) for scheduling to stay near-free. Document the ADF migration path for when monitoring and dependency management justify the cost. Pin the Azure SQL tier decision to the first Power BI connection attempt.
 
 #### 10. Azure Access Control / IAM Plan
 - No documented plan for which service principals or users can read raw files vs. processed data.

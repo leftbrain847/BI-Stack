@@ -159,3 +159,90 @@ values adaptability per engagement over zero-touch repeatability.
 | Backup | Manual exports | Automated backup + point-in-time restore |
 | Multi-tenancy | Single client | Tenant isolation (database or schema per client) |
 | Healthcare compliance | None | HIPAA BAA, audit logging, access reviews |
+
+---
+
+## Phase 0 Gap Analysis — Pre-Azure Integration Checklist
+
+Identified gaps before Azure integration. Items are ranked by risk.
+
+### CRITICAL — Resolve Before Azure Integration
+
+#### 1. PHI Handling in Non-Prod Environments
+- Dev/test environments must use de-identified or synthetically generated data only.
+- Document masking rules before any real data touches Azure, even on a free tier.
+- All five CSVs in `data/raw/` are currently synthetic — this must remain true in dev.
+- **Action:** Add a `data/raw/README.md` that explicitly prohibits real PHI in this folder and documents the de-identification standard used.
+
+#### 2. Staging Layer (Raw → Staged → Final)
+- Raw CSVs should land in a `raw_*` schema untouched, then transform into `staged_*` before populating dim/fact tables.
+- Skipping staging makes it impossible to replay a pipeline failure without re-ingesting the source file.
+- **Action:** Add `raw_dev`, `staged_dev`, `dw_dev` schemas to the schema generation output. Update ADR-002 to reflect three-layer naming convention.
+
+#### 3. Incremental Load Strategy
+- Full reload on every run will not scale and risks duplicate rows without a truncate-reload guard.
+- Need a decision: truncate-and-reload vs. merge (upsert) vs. append-with-dedup.
+- For most healthcare source files (claims, encounters) a merge on natural key is safest.
+- **Action:** Add a load strategy field to `relationships.json` output (`full_reload` | `upsert` | `append`). Let the schema agent recommend per table.
+
+### HIGH PRIORITY
+
+#### 4. Audit Logging
+- HIPAA requires logging who accessed what data and when. Not built into SSMS or Power BI by default.
+- **Action:** Add an `audit_log` table to the schema output template. Minimum columns: `event_time`, `user_principal`, `table_accessed`, `row_count`, `operation_type`.
+- Azure SQL Auditing (built-in) must be enabled on every database that holds PHI — document this as a deployment step.
+
+#### 5. Surrogate Key Strategy
+- Natural keys in healthcare (MRN, NPI, ICD code, encounter ID) are unreliable across source systems.
+- Need a consistent surrogate key (SK) approach across all dim tables before relationships are generated.
+- **Action:** Update `schema_agent.py` system prompt to always generate an `INT IDENTITY(1,1)` SK as the first column on every dimension table. Add SK to `relationships.json` relationship definitions.
+
+#### 6. Slowly Changing Dimension (SCD) Decisions
+- Some dims will change over time: patient demographics, provider affiliations, payer contracts.
+- No SCD type has been assigned to any dimension.
+- **Action:** Add `scd_type` field to the schema agent's dimension output (Type 1 = overwrite, Type 2 = history rows, Type 0 = static). Default to Type 1 in POC; flag Type 2 candidates in the review checklist.
+
+#### 7. Data Quality Validation Post-Load
+- No check that row counts and key totals match between source CSV and loaded table.
+- Pipeline can silently succeed while dropping rows.
+- **Action:** Add a reconciliation step to the pipeline: after load, compare `COUNT(*)` and `SUM()` of numeric key columns between source profile and loaded table. Write results to a `pipeline_audit` table.
+
+### MEDIUM PRIORITY
+
+#### 8. Indexing Plan
+- Schema generation produces `CREATE TABLE` with data types but no clustered or non-clustered index decisions.
+- Without indexes, Power BI refresh will be slow on any table over ~100K rows.
+- **Action:** Update schema agent output to include a `CREATE INDEX` block per table. Cluster on SK for dims; cluster on date + FK for facts. Add NCI on columns flagged as high-cardinality identifiers.
+
+#### 9. Azure Free Tier Limits
+- Azure free SQL tier (250 GB, 32 DTUs on Basic) will constrain pipeline performance quickly.
+- Blob Storage free tier (5 GB) limits raw file staging.
+- **Action:** Document tier upgrade triggers: move to S1/S2 when query times exceed 30s or storage exceeds 4 GB. Budget ~$15–$30/month for POC beyond free tier.
+
+#### 10. Azure Access Control / IAM Plan
+- No documented plan for which service principals or users can read raw files vs. processed data.
+- **Action:** Define three roles before deployment: `bi-stack-ingest` (ADF pipeline SP, read Blob), `bi-stack-dw` (write Azure SQL), `bi-stack-read` (Power BI dataset refresh, read Azure SQL). Document in a `docs/IAM_PLAN.md`.
+
+### MEDIUM PRIORITY — Power BI
+
+#### 11. Row-Level Security (RLS)
+- For healthcare data, RLS is non-negotiable before sharing any report with more than one user.
+- **Action:** Add RLS role definitions to the TMDL output template. Minimum: a `[UserEmail]` filter on any table containing patient or provider data. Flag tables requiring RLS in the review checklist as HIGH.
+
+#### 12. Semantic Model Layer
+- Power BI templates directly on raw tables (no measures, no calculated columns, no role-playing dims) will break as schema evolves.
+- **Action:** Ensure the TMDL skeleton generated by `schema_agent.py` includes at minimum: date table, base measures (COUNT, SUM, DISTINCTCOUNT) per fact table, and role-playing dimension stubs for multi-role date dims.
+
+### LOW PRIORITY — Operational
+
+#### 13. Pipeline Failure Alerting
+- No mechanism to notify anyone if a pipeline run fails silently.
+- **Action:** When Azure Data Factory is introduced, configure alert rules on pipeline failure and partial success. Route to email initially; Slack/Teams webhook later.
+
+#### 14. Data Reconciliation Reporting
+- No visible record of whether source-to-target counts match after each load.
+- **Action:** See item 7 (`pipeline_audit` table). Add a reconciliation summary to the `review_checklist.md` output that schema agent generates.
+
+---
+
+**Biggest near-term risk: items 1 (PHI) and 2 (staging layer).** Everything else can be retrofitted after Azure integration, but PHI in dev and a missing staging layer are architectural mistakes that compound as the system grows.
